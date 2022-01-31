@@ -1,0 +1,375 @@
+<div class="page-wrapper">
+		<header class="header header-transparent header-border">
+			<div class="header-middle sticky-header fix-top sticky-content">
+				<div class="container-fluid">
+					<div class="header-left">
+						<a href="#" class="mobile-menu-toggle">
+							<i class="fa fa-bars"></i>
+						</a>
+						<a href="/" class="logo mr-0 mr-sm-4 mr-lg-6 mr-xl-10">
+							<img src="/casper photos/logo/logo final.png" alt="logo" width="154" height="43" />
+						</a>
+						<!-- End Logo -->
+						<nav class="main-nav">
+							<ul class="menu">
+								<li>
+									<a href="/">Home</a>
+								</li>
+								
+								<li class="active">
+									<a href="#">Products</a>
+									<ul>
+										<li ><a href="/products/shoes">shop shoes</a></li>
+					                    <li ><a href="/products/watches">shop Watches</a></li>
+					                 <li ><a href="/products/speakers">shop speakers</a></li>
+					                 <li ><a href="/products/airpods"> shop air pods</a></li>
+										
+									</ul>
+								</li>
+								
+								<li>
+									<a href="/contact-us">Contact us</a>
+								</li>
+								<li>
+									<a href="/about">about us</a>
+								</li>
+							</ul>
+						</nav>
+						<span class="divider d-lg-show"></span>
+						<!-- End Divider -->
+						<div class="header-search hs-toggle d-lg-show">
+							<a href="#" class="search-toggle">
+								<i class="fa fa-search"></i>
+							</a>
+							<form action="#" class="input-wrapper">
+								<input type="text" class="form-control" name="search" autocomplete="off"
+									placeholder="Search your keyword..." required />
+								<button class="btn btn-search" type="submit">
+									<i class="fa fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<!-- End Header Search -->
+					</div>
+					<div class="header-right">
+						<a class="login-link mr-lg-6 mr-sm-4 mr-2" href="ajax/login.html">
+							<i class="fa fa-user"></i>
+						</a>
+						<!-- End Login -->
+						<a class="wishlist mr-sm-4 mr-2" href="wishlist.html">
+							<i class="fa fa-heart"></i>
+						</a>
+						<span class="divider"></span>
+						<!-- End Divider -->
+						
+							<!-- End Dropdown Box -->
+						</div>
+						<div class="header-search hs-toggle mobile-search">
+							<a href="#" class="search-toggle">
+								<i class="fa fa-search"></i>
+							</a>
+							<form action="#" class="input-wrapper">
+								<input type="text" class="form-control" name="search" autocomplete="off"
+									placeholder="Search your keyword..." required />
+								<button class="btn btn-search" type="submit">
+									<i class="fa fa-search"></i>
+								</button>
+							</form>
+						</div>
+						<!-- End of Header Search -->
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<!-- End Header -->
+		<!-- End Header -->
+		<main class="main shop">
+			<div class="page-header"
+				style="background-image: url('/demo13/airpod.png'); background-color: #3C63A4;">
+				<h1 class="page-title">100+ premium Shoes</h1>
+				<h4 class="page-subtitle font-weight-normal">showing page 1 of 2</h4>
+			</div>
+			<!-- End PageHeader -->
+			<div class="page-content mb-10 pb-3">
+				<div class="container">
+					<nav class="toolbox toolbox-horizontal sticky-toolbox sticky-content fix-top">
+						<aside class="sidebar sidebar-fixed shop-sidebar">
+							<div class="sidebar-overlay"></div>
+							<a class="sidebar-close" href="#"><i class="fa fa-times"></i></a>
+							<div class="sidebar-content toolbox-left">
+								
+								
+								
+							</div>
+						</aside>
+						<div class="toolbox-left">
+							
+							
+						</div>
+						<div class="toolbox-right">
+							
+							
+						</div>
+					</nav>
+					
+					<div class="row cols-2 cols-sm-3 cols-md-4 product-wrapper">
+                        {{#each airpods}}
+						<div class="product product-classic">
+							<figure class="product-media">
+								<a href="/products?id={{this._id}}">
+									<img src="/{{this._id}}0.jpg" alt="product"
+										width="300" height="338">
+									
+								</a>
+								<div class="product-label-group">
+									<label class="product-label label-top">{{this.name}}</label>
+								</div>
+							</figure>
+							<div class="product-details">
+								<h3 class="product-name">
+									<a href="demo13-product.html">  </a>
+								</h3>
+								<div class="product-price">
+									<span class="price"> ₹ {{this.Price}} </span>
+								</div>
+								
+								
+								<div >
+									<a href="/products?id={{this._id}}" ><button class="buyme">view product
+										<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+									
+									
+												
+								</div>
+								
+							</div>
+						</div>
+                        {{/each}}
+						
+					</div>
+					
+					<nav class="toolbox toolbox-pagination">
+						<p class="toolbox-item show-info d-block">Showing <span>48 of 96</span> Products</p>
+						<ul class="pagination">
+							<li class="page-item disabled">
+								<a class="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1"
+									aria-disabled="true">
+									<i class="fa fa-arrow-left"></i>Prev
+								</a>
+							</li>
+							<li class="page-item active" aria-current="page"><a class="page-link" href="/products/shoes">1</a></li>
+							<li class="page-item"><a class="page-link" href="shoes2.html">2</a></li>
+							
+							<li class="page-item">
+								<a class="page-link page-link-next" href="shoes2.html" aria-label="Next">
+									Next<i class="fa fa-arrow-right"></i>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</main>
+		<!-- End Main -->
+		<footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="/" class="logo-footer">
+                                <img src="/casper photos/logo/logo final.png" alt="logo-footer" width="154" height="43" />
+                            </a>
+                            <!-- End FooterLogo -->
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="widget widget-newsletter form-wrapper form-wrapper-inline">
+                                <div class="newsletter-info mx-auto mr-lg-2 ml-lg-4">
+                                    <h4 class="widget-title">Subscribe to our Newsletter</h4>
+                                    <p>Get all the latest information, Sales and Offers.</p>
+                                </div>
+                                <form action="#" class="input-wrapper input-wrapper-inline">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Email address here..." required />
+                                    <button class="btn btn-rounded btn-primary btn-md ml-2" type="submit">subscribe<i
+                                            class="fa fa-arrow-right"></i></button>
+                                </form>
+                            </div>
+                            <!-- End Newsletter -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterTop -->
+                <div class="footer-middle">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget-contact">
+                                <h4 class="widget-title">Contact Info</h4>
+                                <ul class="widget-body">
+                                    <li>
+                                        <label>Phone:</label>
+                                        <a href="tel:#">8590077965</a>
+                                    </li>
+                                    <li>
+                                        <label>Email:</label>
+                                        <a href="mailto:riode@mail.com">casperonlinestore@mail.com</a>
+                                    </li>
+                                    <li>
+                                        <label>Address:</label>
+                                        <a href="#">Elokkara NH 212 raroth Elokkara, Kozhikode, Kerala 673586</a>
+                                    </li>
+                                    <li>
+                                        <label>WORKING DAYS / HOURS:</label>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mon - Sun / 9:00 AM - 8:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                <h4 class="widget-title">visit us</h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15640.607750424228!2d75.968985!3d11.468957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f20217d16042a60!2sCasper%20online%20store!5e0!3m2!1sen!2sin!4v1631437483004!5m2!1sen!2sin"  width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                
+                                    
+                                </ul>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget-instagram">
+                                <h4 class="widget-title">Instagram</h4>
+                                <figure class="widget-body row">
+                                    <div class="col-3">
+                                        <img src="/casper photos/shoes/1.png" alt="instagram 1" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/watches/11.png" alt="instagram 2" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/shoes/9.png" alt="instagram 3" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/watches/8.png" alt="instagram 4" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/shoes/5.png" alt="instagram 5" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/watches/4.png" alt="instagram 6" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/shoes/10.png" alt="instagram 7" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/casper photos/watches/3.png" alt="instagram 8" width="64" height="64" />
+                                    </div>
+                                </figure>
+                            </div>
+                            <!-- End Instagram -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterMiddle -->
+                <div class="footer-bottom">
+                    <div class="footer-left">
+                        <figure class="payment">
+                            <img src="/casper photos/payment icon.png" alt="payment" width="159" height="29" />
+                        </figure>
+                    </div>
+                   
+                    <div class="footer-right">
+                        <div class="social-links">
+                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
+                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
+                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterBottom -->
+            </div>
+        </footer>
+		<!-- End Footer -->
+	</div>
+	<!-- Sticky Footer -->
+	<div class="sticky-footer sticky-content fix-bottom">
+        <a href="/" class="sticky-link active">
+            <i class="fa fa-home"></i>
+            <span>Home</span>
+        </a>
+           <a href="/about"   class="sticky-link"> 
+            <i class="fa fa-group" style="font-size:22px"></i>
+            <span>About </span>
+        </a>
+        <a href="https://wa.me/918590077965" class="sticky-link">
+            <i class="fa fa-whatsapp" style="font-size:22px;margin-left: 5px;" ></i>
+            <span>CONTACT US</span>
+        </a>
+        <a href="https://www.instagram.com/casper.onlinestore/" class="sticky-link">
+            <i class="fa fa-instagram" style="font-size:22px"></i>
+            <span>FOLLOW US</span>
+        </a>
+        <div class="header-search hs-toggle dir-up">
+            <a href="#" class="search-toggle sticky-link">
+                <i class="fa fa-search"></i>
+                <span>Search</span>
+            </a>
+            <form action="#" class="input-wrapper">
+                <input type="text" class="form-control" name="search" autocomplete="off"
+                    placeholder="Search your keyword..." required />
+                <button class="btn btn-search" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+	<!-- Scroll Top -->
+	<a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="d-icon-arrow-up"></i></a>
+
+	<!-- MobileMenu -->
+	<div class="mobile-menu-wrapper">
+		<div class="mobile-menu-overlay">
+		</div>
+		<!-- End Overlay -->
+		<a class="mobile-menu-close" href="#"><i class="fa fa-times"></i></a>
+		<!-- End CloseButton -->
+		<div class="mobile-menu-container scrollable">
+			<form action="#" class="input-wrapper">
+				<input type="text" class="form-control" name="search" autocomplete="off"
+					placeholder="Search your keyword..." required />
+				<button class="btn btn-search" type="submit">
+					<i class="fa fa-search"></i>
+				</button>
+			</form>
+			<!-- End Search Form -->
+			<ul class="mobile-menu mmenu-anim">
+				<li  >
+					<a href="/">HOME</a>
+				</li>
+				
+				
+			   
+					 <li class="active"><a href="/products/shoes">shop shoes</a></li>
+					 <li ><a href="/products/watches">shop Watches</a></li>
+					  <li ><a href="/products/speakers">shop speakers</a></li>
+					  <li ><a href="/products/airpods"> shop air pods</a></li>
+						
+				  
+				
+				<li>
+					<a href="/contact-us">CONTACT US</a>
+				</li>
+				<li >
+					<a href="/about">ABOUT US</a>
+				</li>
+			</ul>
+			<!-- End MobileMenu -->
+		</div>
+	</div>

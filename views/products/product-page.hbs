@@ -1,0 +1,701 @@
+
+		<header class="header">
+			<div class="header-middle sticky-header fix-top sticky-content">
+				<div class="container-fluid">
+					<div class="header-left">
+						<a href="#" class="mobile-menu-toggle">
+							<i class="fa fa-bars"></i>
+						</a>
+						<a href="/products/airpods" class="logo mr-0 mr-sm-4 mr-lg-6 mr-xl-10">
+							<img src="/images/casper photos/logo/logo1.png" alt="logo" width="154" height="43" />
+						</a>
+						<!-- End Logo -->
+						<nav class="main-nav">
+                            <ul class="menu">
+                                <li >
+                                    <a href="/products/airpods">HOME</a>
+                                </li>
+                                
+                                
+                                <li class="active">
+                                    <a href="#">OUR PRODUCTS</a>
+                                    <ul>
+                                       <li ><a href="/products/shoes"> shoes</a></li>
+					                    <li ><a href="/products/watches"> Watches</a></li>
+					                 <li ><a href="/products/speakers">speakers</a></li>
+					                 <li ><a href="/products/airpods"> air pods</a></li>
+                                        
+                                    </ul>
+                                </li>
+                               
+                                <li>
+                                    <a href="//contact-us">CONTACT US</a>
+                                </li>
+                                <li>
+                                    <a href="//about">ABOUT US</a>
+                                </li>
+                            </ul>
+                        </nav>
+						<span class="divider d-lg-show"></span>
+                        <!-- End Divider -->
+                        <div class="header-search hs-toggle d-lg-show">
+                            <a href="#" class="search-toggle">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <form action="#" class="input-wrapper">
+                                <input type="text" class="form-control" name="search" autocomplete="off"
+                                    placeholder="Search your keyword..." required />
+                                <button class="btn btn-search" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+						<!-- End Header Search -->
+					</div>
+                    <div class="header-right">
+                        <a class="login-link mr-lg-6 mr-sm-4 mr-2" href="ajax/login.html">
+                            <i class="fa fa-user"></i>
+                        </a>
+                        <!-- End Login -->
+                        <a class="wishlist mr-sm-4 mr-2" href="#">
+                            <i class="fa fa-heart"></i>
+                        </a>
+                        <span class="divider"></span>
+                        <!-- End Divider -->
+                       
+							<!-- End Dropdown Box -->
+						</div>
+                        <div class="header-search hs-toggle mobile-search">
+                            <a href="#" class="search-toggle">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <form action="#" class="input-wrapper">
+                                <input type="text" class="form-control" name="search" autocomplete="off"
+                                    placeholder="Search your keyword..." required />
+                                <button class="btn btn-search" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <!-- End of Header Search -->
+                    </div>
+                </div>
+
+            </div>
+        </header>
+		<!-- End Header -->
+		<main class="main single-product mt-6">
+			<div class="page-content mb-10">
+				<div class="container-fluid">
+					<div class="product product-single row">
+						<div class="col-md-6">
+							<div class="product-gallery pg-vertical">
+								<div class="product-single-carousel owl-carousel owl-theme owl-nav-inner row cols-1">
+									{{#each productImages}}
+									<figure class="product-image">
+										<img src="/{{this}}.jpg "
+										data-zoom-image="images/demos/demo13/product/product-2-800x900.jpg"
+											alt="Blue Pinafore Denim Dress" width="732" height="822">
+											
+									</figure>
+									{{/each}}
+									
+									
+									
+									
+									
+								</div>
+								<div class="product-thumbs-wrap">
+									<div class="product-thumbs">
+										{{#each productImages}}
+										<div class="product-thumb active">
+											<img src="/{{this}}.jpg"
+												alt="product thumbnail" width="130" height="146">
+										</div>
+										{{/each}}
+										
+										
+									</div>
+									<button class="thumb-up disabled"><i class="fas fa-arrow-left"></i></button>
+									<button class="thumb-down disabled"><i class="fas fa-arrow-left"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="product-details">
+								<div class="product-navigation">
+									<ul class="breadcrumb breadcrumb-lg">
+										<li><a href="/products/airpods"><i class="fa fa-home"></i></a></li>
+										<li><a href="//products/shoes" class="active">shoes</a></li>
+										<li>  </li>
+									</ul>
+
+									
+								</div>
+
+								<h1 class="product-name">   </h1>
+								
+								<div class="product-price">₹ {{product.Price}}</div>
+								
+								<div >
+									<a href="https://wa.me/918590077965?text=https://casperonlinestore.in/buyshoes/1.html" ><button class="buyme">BUY NOW  
+										<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+									
+									
+												
+								</div>
+								<hr class="product-divider">
+								<div class="product-form product-size">
+									<label>Size:</label>
+									<div class="product-form-group">
+										<div class="product-variations">
+											<a class="size" href="#">6</a>
+											<a class="size" href="#">7</a>
+											<a class="size" href="#">8</a>
+											<a class="size" href="#">9</a>
+											<a class="size" href="#">10</a>
+											<a class="size" href="#">11</a>
+										</div>
+
+										
+									</div>
+								</div>
+
+
+								<hr class="product-divider">
+
+								
+
+								<hr class="product-divider mb-3">
+
+								
+
+								<div class="accordion accordion-simple mb-4">
+									<div class="card border-no card-description">
+										<div class="card-header">
+											<a href="#collapse1-1" class="collapse">Description</a>
+										</div>
+										<div id="collapse1-1" class="card-body expanded">
+											
+												
+												
+													
+													<div class="icon-box-wrap d-flex flex-wrap">
+														<div
+															class="icon-box icon-box-side icon-border pt-2 pb-2 mb-4 mr-10">
+															<div class="icon-box-icon">
+																<i class="d-icon-truck"></i>
+															</div>
+															<div class="icon-box-content">
+																<h4 class="icon-box-title lh-1 pt-1 ls-s text-normal">2-4
+																	day delivery
+																</h4>
+																<p></p>
+															</div>
+														</div>
+														<div class="divider d-xl-show mr-10"></div>
+														<div class="icon-box icon-box-side icon-border pt-2 pb-2 mb-4">
+															<div class="icon-box-icon">
+																<i class="d-icon-bag"></i>
+															</div>
+															<div class="icon-box-content">
+																<h4 class="icon-box-title lh-1 pt-1 ls-s text-normal">
+																	Free shipping
+																</h4>
+																<p>on every orders</p>
+															</div>
+														</div>
+													</div>
+											
+										</div>
+									</div>
+									
+									<div class="card card-sizeguide">
+										<div class="card-header">
+											<a href="#collapse1-3" class="expand">Size Guide</a>
+										</div>
+										<div class="card-body collapsed" id="collapse1-3">
+											
+											<figure class="size-table mt-4 mb-4">
+												<table>
+													<thead>
+														<tr>
+															<th>SIZE</th>
+															<th>CHEST(IN.)</th>
+															<th>WEIST(IN.)</th>
+															<th>HIPS(IN.)</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<th>XS</th>
+															<td>34-36</td>
+															<td>27-29</td>
+															<td>34.5-36.5</td>
+														</tr>
+														<tr>
+															<th>S</th>
+															<td>36-38</td>
+															<td>29-31</td>
+															<td>36.5-38.5</td>
+														</tr>
+														<tr>
+															<th>M</th>
+															<td>38-40</td>
+															<td>31-33</td>
+															<td>38.5-40.5</td>
+														</tr>
+														<tr>
+															<th>L</th>
+															<td>40-42</td>
+															<td>33-36</td>
+															<td>40.5-43.5</td>
+														</tr>
+														<tr>
+															<th>XL</th>
+															<td>42-45</td>
+															<td>36-40</td>
+															<td>43.5-47.5</td>
+														</tr>
+														<tr>
+															<th>XXL</th>
+															<td>45-48</td>
+															<td>40-44</td>
+															<td>47.5-51.5</td>
+														</tr>
+													</tbody>
+												</table>
+											</figure>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<section class="related-products">
+						<h2 class="title title-simple">Related Products</h2>
+
+						<div class="owl-carousel owl-theme row cols-xl-6 cols-lg-4 cols-md-3 cols-2" data-owl-options="{
+                            'items': 5,
+                            'nav': false,
+                            'dots': true,
+                            'loop': false,
+                            'margin': 20,
+                            'responsive': {
+                                '0': {
+                                    'items': 2
+                                },
+                                '768': {
+                                    'items': 3
+                                },
+                                '992': {
+                                    'items': 4
+                                },
+                                '1200': {
+                                    'items': 6,
+                                    'dots': false
+                                }
+                            }
+                        }">
+
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/2.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 750.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="2.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+									
+								</div>
+							</div>
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/3.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 750.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="3.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+								</div>
+							</div>
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/4.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 2499.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="4.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+								</div>
+							</div>
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/5.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 2250.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="5.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+								</div>
+							</div>
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/6.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 2150.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="6.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+								</div>
+							</div>
+							<div class="product product-classic">
+								<figure class="product-media">
+									<a href="#">
+										<img src="/images/casper photos/shoes/7.png" alt="product" width="300"
+											height="338">
+										
+									</a>
+								</figure>
+								<div class="product-details">
+									<h3 class="product-name">
+										<a href="#"></a>
+									</h3>
+									<div class="product-price">
+										<span class="price">₹ 1350.00</span>
+									</div>
+									<div class="ratings-container">
+										<div class="ratings-full">
+											<span class="ratings" style="width:100%"></span>
+											<span class="tooltiptext tooltip-top"></span>
+										</div>
+										<a href="#" class="rating-reviews">( 6 reviews )</a>
+									</div>
+									<div >
+										<a href="7.html" ><button class="buyme">view product 
+											<i class="fa fa-whatsapp" style="font-size:22px;color:#25D366;margin-left: 5px;" ></i></button></a>
+										
+										
+													
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<!-- End Main -->
+		<footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="/products/airpods" class="logo-footer">
+                                <img src="/images/casper photos/logo/logo1.png" alt="logo-footer" width="154" height="43" />
+                            </a>
+                            <!-- End FooterLogo -->
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="widget widget-newsletter form-wrapper form-wrapper-inline">
+                                <div class="newsletter-info mx-auto mr-lg-2 ml-lg-4">
+                                    <h4 class="widget-title">Subscribe to our Newsletter</h4>
+                                    <p>Get all the latest information, Sales and Offers.</p>
+                                </div>
+                                <form action="#" class="input-wrapper input-wrapper-inline">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Email address here..." required />
+                                    <button class="btn btn-rounded btn-primary btn-md ml-2" type="submit">subscribe<i
+                                            class="fa fa-arrow-right"></i></button>
+                                </form>
+                            </div>
+                            <!-- End Newsletter -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterTop -->
+                <div class="footer-middle">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget-contact">
+                                <h4 class="widget-title">Contact Info</h4>
+                                <ul class="widget-body">
+                                    <li>
+                                        <label>Phone:</label>
+                                        <a href="tel:#">8590077965</a>
+                                    </li>
+                                    <li>
+                                        <label>Email:</label>
+                                        <a href="mailto:riode@mail.com">casperonlinestore@Gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <label>Address:</label>
+
+                                        <a href="#">Elokkara NH 212 raroth Elokkara, Kozhikode, Kerala 673586</a>
+                                    </li>
+                                    <li>
+                                        <label>WORKING DAYS / HOURS:</label>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mon - Sun / 9:00 AM - 8:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                <h4 class="widget-title">visit us</h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15640.607750424228!2d75.968985!3d11.468957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f20217d16042a60!2sCasper%20online%20store!5e0!3m2!1sen!2sin!4v1631437483004!5m2!1sen!2sin"  width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                
+                                    
+                                </ul>
+                            </div>
+                            <!-- End Widget -->
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget-instagram">
+                                <h4 class="widget-title">Instagram</h4>
+                                <figure class="widget-body row">
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/shoes/1.png" alt="instagram 1" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/watches/11.png" alt="instagram 2" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/shoes/9.png" alt="instagram 3" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/watches/8.png" alt="instagram 4" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/shoes/5.png" alt="instagram 5" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/watches/4.png" alt="instagram 6" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/shoes/10.png" alt="instagram 7" width="64" height="64" />
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="/images/casper photos/watches/3.png" alt="instagram 8" width="64" height="64" />
+                                    </div>
+                                </figure>
+                            </div>
+                            <!-- End Instagram -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterMiddle -->
+                <div class="footer-bottom">
+                    <div class="footer-left">
+                        <figure class="payment">
+                            <img src="/images/casper photos/payment icon.png" alt="payment" width="159" height="29" />
+                        </figure>
+                    </div>
+                    
+                    <div class="footer-right">
+                        <div class="social-links">
+                            <a href="#" class="social-link social-facebook fab fa-facebook-f"></a>
+                            <a href="#" class="social-link social-twitter fab fa-twitter"></a>
+                            <a href="#" class="social-link social-linkedin fab fa-linkedin-in"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End FooterBottom -->
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    <!-- Sticky Footer -->
+    <div class="sticky-footer sticky-content fix-bottom">
+        <a href="/products/airpods" class="sticky-link active">
+            <i class="fa fa-home"></i>
+            <span>Home</span>
+        </a>
+            <a href="//about"   class="sticky-link"> 
+            <i class="fa fa-group" style="font-size:22px"></i>
+            <span>About </span>
+        </a>
+        <a href="https://wa.me/918590077965" class="sticky-link">
+            <i class="fa fa-whatsapp" style="font-size:22px;margin-left: 5px;" ></i>
+            <span>CONTACT US</span>
+        </a>
+        <a href="https://www.instagram.com/casper.onlinestore/" class="sticky-link">
+            <i class="fa fa-instagram" style="font-size:22px"></i>
+            <span>FOLLOW US</span>
+        </a>
+        <div class="header-search hs-toggle dir-up">
+            <a href="#" class="search-toggle sticky-link">
+                <i class="fa fa-search"></i>
+                <span>Search</span>
+            </a>
+            <form action="#" class="input-wrapper">
+                <input type="text" class="form-control" name="search" autocomplete="off"
+                    placeholder="Search your keyword..." required />
+                <button class="btn btn-search" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- Scroll Top -->
+    <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="d-icon-arrow-up"></i></a>
+
+    <!-- MobileMenu -->
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-overlay">
+        </div>
+        <!-- End Overlay -->
+        <a class="mobile-menu-close" href="#"><i class="fa fa-times"></i></a>
+        <!-- End CloseButton -->
+        <div class="mobile-menu-container scrollable">
+            <form action="#" class="input-wrapper">
+                <input type="text" class="form-control" name="search" autocomplete="off"
+                    placeholder="Search your keyword..." required />
+                <button class="btn btn-search" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+            <!-- End Search Form -->
+            
+			<ul class="mobile-menu mmenu-anim">
+				<li >
+					<a href="/products/airpods">HOME</a>
+				</li>
+				
+				
+			   
+									<li ><a href="/products/shoes">shop shoes</a></li>
+					                    <li ><a href="/products/watches">shop Watches</a></li>
+					                 <li ><a href="/products/speakers">shop speakers</a></li>
+					                 <li ><a href="/products/airpods"> shop air pods</a></li>
+						
+				  
+				
+				<li>
+					<a href="//contact-us">CONTACT US</a>
+				</li>
+				<li>
+					<a href="//about">ABOUT US</a>
+				</li>
+			</ul>
+            <!-- End MobileMenu -->
+        </div>
+    </div>
